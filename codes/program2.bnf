@@ -1,0 +1,10 @@
+program        ::= declaration* EOF 
+
+declaration    ::= varDecl
+               | statement 
+
+statement      ::= exprStmt
+               | printStmt 
+
+exprstmt       ::=exepression ";"
+printStmt      ::="print" expression ";"
